@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(21, 109, 9);
+}
+
+h2 {
+    color: rgb(6, 12, 4);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.collected {
+    color: rgb(21, 109, 9);
+}
+
+.table {
+    margin: auto;
+    background-color: rgb(14, 11, 8);
+}
+
+.cell {
+    width: 2.1em;
+    height: 2.1em;
+    font-size: 1.2em;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: rgb(180, 175, 175)
+}
+
+.wall {
+    background-color: rgb(155, 95, 4);
+}
+
+.dead {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.victory {
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 0.7em;
+    color: rgb(240, 198, 13);
+}
+
+.reset-btn {
+    margin: auto;
+    margin-top: 0.5em;
+    border-radius: 5px;
+    font-weight: bold;
+}

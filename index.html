@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>👨‍⚕️Covid Savior👨‍⚕️</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()" background="img/background.jpg">
+    <h1>Covid Savior</h1>
+    <h2>Collected Syringes: <span class="collected"></span> / 20 💉</h2>
+    <table class="table">
+        <tbody class="board"></tbody>
+    </table>
+    <h1 hidden class="dead">&#9760 DEAD &#9760</h1>
+    <h1 hidden class="victory">&#127942 VICTORIOUS &#127942</h1>
+    <button class="reset-btn" onclick="initGame()" hidden>Play again</button>
+    <script src="js/game.js"></script>
+    <script src="js/util.js"></script>
+</body>
+
+</html>
